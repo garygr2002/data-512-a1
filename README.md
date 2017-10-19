@@ -9,14 +9,13 @@ Terms of use provided at: https://wikimediafoundation.org/wiki/Terms_of_Use/en
 API documentation is provided at: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts and https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
 The code produces a CSV formatted file with the following fields:<br>
-year -					Year of the measurement
-month -					Month of the measurement
-pagecount_all_views -			Count of all pagecount accesses
-pagecount_desktop_views -		Count of pagecount accesses from desktop clients only
-pagecount_mobile_views -		Count of pagecount accesses from mobile clients only
-pageview_all_views -			Count of all pageview accesses
-pageview_desktop_views -		Count of pageview accesses from desktop clients only
-pageview_mobile_views -			Count of pageview accesses from mobile clients only
+year -					Year of the measurement<br>
+month -					Month of the measurement<br>
+pagecount_all_views -			Count of all pagecount accesses<br>
+pagecount_desktop_views -		Count of pagecount accesses from desktop clients only<br>
+pagecount_mobile_views -		Count of pagecount accesses from mobile clients only<br>
+pageview_all_views -			Count of all pageview accesses<br>
+pageview_desktop_views -		Count of pageview accesses from desktop clients only<br>
+pageview_mobile_views -			Count of pageview accesses from mobile clients only<br>
 
 Special considerations: The pagecount API is a legacy API that does not differentiate between spiders/crawlers and user accesses.  The pageview API does make this distinction, and here we exclude spider/crawler page accesses.
-
